@@ -16,14 +16,14 @@ so you can check it by running
 ```
 git --version
  ```    
-    in your terminal.this will show that if you have git or not if no,then you need to install git!
+  in your terminal.this will show that if you have git or not if no,then you need to install git!
 
 run foundry comand -
 
-````
+```
 curl -L https://foundry.paradigm.xyz | bash
 ```
-this will install foundry!
+
 
 Now to Deploy you can use this below comand
 
@@ -40,7 +40,7 @@ Now to see the coverage or effieciency of test you can type
 
 ```
 forge coverage
-````
+```
 
 If the Makefile command do not work please make sure to use
 
