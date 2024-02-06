@@ -15,7 +15,7 @@ so you can check it by running
 
 ```
 git --version
- ```    
+```    
   in your terminal.this will show that if you have git or not if no,then you need to install git!
 
 run foundry comand -
@@ -44,7 +44,8 @@ forge coverage
 
 If the Makefile command do not work please make sure to use
 
-```forge script script/DeployfundMe.s.sol:DeployFundMe --rpc-url $(SEPOLIA_RPC_URL) --private-key $(PRIVATE_KEY) --broadcast --verify --etherscan-api-key $(ETHERSCAN_API_KEY) -vvvv
+```
+forge script script/DeployfundMe.s.sol:DeployFundMe --rpc-url $(SEPOLIA_RPC_URL) --private-key $(PRIVATE_KEY) --broadcast --verify --etherscan-api-key $(ETHERSCAN_API_KEY) -vvvv
 ```
  To run it on Sepolia
 
