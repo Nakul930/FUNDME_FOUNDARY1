@@ -13,7 +13,7 @@ Prerequisites -
 First you need to make sure you have git on your steup!
 so you can check it by running
 
-````
+```
 git --version
 ```    in your terminal.this will show that if you have git or not if no,then you need to install git!
 
